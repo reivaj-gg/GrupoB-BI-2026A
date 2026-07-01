@@ -1,0 +1,9 @@
+@relation loan_risk
+
+@attribute Age {middle-aged,senior,young}
+@attribute Income {high,low,medium}
+@attribute Loan_History {average,good,poor}
+@attribute Loan_Decision {risky,safe}
+
+@data
+senior,high,poor,?
